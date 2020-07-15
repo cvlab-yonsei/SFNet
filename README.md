@@ -19,8 +19,8 @@ For more information, checkout the project site [[website](https://cvlab.yonsei.
 
 ## Code
 ```bash
-git clone https://github.com/cvlab-yonsei/projects
-cd projects/SFNet/codes
+git clone https://github.com/cvlab-yonsei/SFNet.git
+cd SFNet
 python3 download_datasets.py # prepare the datasets for training/evaluation
 python3 train.py # for training
 python3 eval_pascal.py # evaluation on PF-Pascal dataset
